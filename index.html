@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Embu University StudHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            🎓 StudHub
+        </div>
+
+        <button class="menu-button" onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- Navigation -->
+    <nav id="navigation">
+
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#marketplace">Marketplace</a>
+        <a href="#community">Community</a>
+        <a href="#profile">Profile</a>
+
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home" class="hero">
+
+        <h1>Welcome to StudHub</h1>
+
+        <p>
+            Your digital platform for student life,
+            learning and university community.
+        </p>
+
+        <button onclick="showWelcome()">
+            Get Started
+        </button>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features">
+
+        <h2>StudHub Services</h2>
+
+        <div class="cards">
+
+            <div class="card" onclick="openCourses()">
+                <span>📚</span>
+                <h3>Courses</h3>
+                <p>Access your courses and learning materials.</p>
+            </div>
+
+
+            <div class="card" onclick="openMarketplace()">
+                <span>🛍️</span>
+                <h3>Marketplace</h3>
+                <p>Buy and sell items within the student community.</p>
+            </div>
+
+
+            <div class="card" onclick="openCommunity()">
+                <span>👥</span>
+                <h3>Community</h3>
+                <p>Connect and communicate with other students.</p>
+            </div>
+
+
+            <div class="card" onclick="showNotifications()">
+                <span>🔔</span>
+                <h3>Notifications</h3>
+                <p>Stay updated with important information.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Courses -->
+    <section id="courses" class="section">
+
+        <h2>📚 Courses</h2>
+
+        <p>
+            Your registered courses and study materials
+            will appear here.
+        </p>
+
+    </section>
+
+
+    <!-- Marketplace -->
+    <section id="marketplace" class="section">
+
+        <h2>🛍️ Marketplace</h2>
+
+        <p>
+            Buy and sell products within the student community.
+        </p>
+
+    </section>
+
+
+    <!-- Community -->
+    <section id="community" class="section">
+
+        <h2>👥 Community</h2>
+
+        <p>
+            Connect with fellow students.
+        </p>
+
+    </section>
+
+
+    <!-- Profile -->
+    <section id="profile" class="section">
+
+        <h2>👤 Student Profile</h2>
+
+        <p>
+            Your student profile will appear here.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Embu University StudHub
+        </p>
+
+        <p>
+            Built for students
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
